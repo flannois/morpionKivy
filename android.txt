@@ -1,0 +1,3 @@
+title=MonMorpion
+author=Florent
+orientation=portrait

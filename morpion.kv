@@ -1,0 +1,112 @@
+<MonMorpion>:
+
+    label_scoreX: scoreX
+    label_scoreO: scoreO
+    
+    label_joueur: joueurActuel
+
+    label_bouton0: bouton0
+    label_bouton1: bouton1
+    label_bouton2: bouton2
+    label_bouton3: bouton3
+    label_bouton4: bouton4
+    label_bouton5: bouton5
+    label_bouton6: bouton6
+    label_bouton7: bouton7
+    label_bouton8: bouton8
+    
+    GridLayout:
+        cols: 3
+        orientation: 'vertical'
+        font_size:'100sp'
+        Label:
+            font_size:'100sp'
+            id: texteX
+            text: "X"
+        
+        Label:
+            
+            id: espaceRegles
+            text: "MORPION"
+        Label:
+            font_size:'100sp'
+            id: texteO
+            text: "O"
+
+             
+        Label:
+            font_size:'100sp'
+            id: scoreX
+            text: "0"
+        
+        Label:
+            id: joueurActuel
+            text: "X commence"
+            
+        Label:
+            font_size:'100sp'
+            id: scoreO
+            text: "0"
+        Label:
+            id: espace
+        Label:
+            id: espace
+        Label:
+            id: espace
+      
+
+
+
+        Button:
+            font_size:'100sp'
+            id: bouton0
+            text: app.plateau[0]
+            on_press: root.appuiBouton(0)
+        Button:
+            font_size:'100sp'
+            id: bouton1
+            text: app.plateau[1]
+            on_press: root.appuiBouton(1)
+        Button:
+            font_size:'100sp'
+            id: bouton2
+            text: app.plateau[2]
+            on_press: root.appuiBouton(2)
+        Button:
+            font_size:'100sp'
+            id: bouton3
+            
+            text: app.plateau[3]
+            on_press: root.appuiBouton(3)
+        Button:
+            font_size:'100sp'
+            id: bouton4
+
+            
+            text: app.plateau[4]
+            on_press: root.appuiBouton(4)
+        Button:
+            font_size:'100sp'
+            id: bouton5
+            
+            text: app.plateau[5]
+            on_press: root.appuiBouton(5)
+        Button:
+            font_size:'100sp'
+            id: bouton6
+            
+            text: app.plateau[6]
+            on_press: root.appuiBouton(6)
+        Button:
+            font_size:'100sp'
+            id: bouton7
+            
+            text: app.plateau[7]
+            on_press: root.appuiBouton(7)
+        Button:
+            font_size:'100sp'
+            id: bouton8
+            
+            text: app.plateau[8]
+            on_press: root.appuiBouton(8)
+        
